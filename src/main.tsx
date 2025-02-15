@@ -5,7 +5,7 @@ import App from './App.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home.tsx'
 import Login from './pages/auth/Login.tsx'
-import Dashboard from './pages/Dashboard.tsx'
+import Dashboard from './dashboard/index.tsx'
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 import { ClerkProvider } from '@clerk/clerk-react';
